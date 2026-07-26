@@ -1,0 +1,68 @@
+name: Mirror Mattermost Boards
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/boards-mirror.yml"
+  schedule:
+    - cron: "2-59/5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mattermost-boards-mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: [self-hosted, caps-archive]
+    timeout-minutes: 20
+    env:
+      MIRROR_CONFIG_PATH: /etc/mattermost-board-mirror/mirror.yml
+
+    steps:
+      - name: Create ephemeral credential files
+        shell: bash
+        env:
+          ARCHIVE_GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          umask 077
+          test -r /run/credentials/mattermost-board-mirror-postgres
+          credential_dir="${RUNNER_TEMP}/boards-mirror-credentials"
+          install -d -m 0700 "${credential_dir}"
+          printf '%s' "${ARCHIVE_GITHUB_TOKEN}" > "${credential_dir}/github-token"
+          echo "BOARDS_MIRROR_GITHUB_CREDENTIAL_SOURCE=${credential_dir}/github-token" \
+            >> "${GITHUB_ENV}"
+
+      - name: Verify provisioned runtime
+        shell: bash
+        run: |
+          set -euo pipefail
+          runtime_python="/opt/mattermost-board-mirror/venv/bin/python"
+          test -x "${runtime_python}"
+          "${runtime_python}" -c \
+            'import psycopg, yaml, boards_mirror; assert boards_mirror.__version__ == "0.8.0"'
+
+      - name: Mirror source history
+        shell: bash
+        run: |
+          set -euo pipefail
+          runtime_python="/opt/mattermost-board-mirror/venv/bin/python"
+          flock --wait 900 /runner/.caps-boards-archive.lock \
+            "${runtime_python}" -m boards_mirror run-once \
+              --config "${MIRROR_CONFIG_PATH}"
+
+      - name: Remove ephemeral credentials
+        if: always()
+        shell: bash
+        run: |
+          credential_dir="${RUNNER_TEMP}/boards-mirror-credentials"
+          if [[ -d "${credential_dir}" ]]; then
+            find "${credential_dir}" -type f -exec shred -u -- {} +
+            rmdir "${credential_dir}"
+          fi
