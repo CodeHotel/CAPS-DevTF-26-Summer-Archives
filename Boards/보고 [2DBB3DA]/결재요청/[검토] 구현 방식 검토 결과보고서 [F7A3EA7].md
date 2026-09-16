@@ -178,6 +178,8 @@ HAMi
   [28] HARP: Orchestrating Automated Parallel Training on Heterogeneous GPU Clusters.
       https://arxiv.org/abs/2509.24859
 
+> Non-image attachment omitted by archive policy
+
 ## Comments
 
 _No comments._
