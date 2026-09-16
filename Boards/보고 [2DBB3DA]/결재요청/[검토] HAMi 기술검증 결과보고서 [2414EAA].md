@@ -483,6 +483,8 @@ Card ID: `cgk1qxa554injjmweeph5r6ns4a`
 - Stable Diffusion v1.5, `stable-diffusion-v1-5/stable-diffusion-v1-5`
 - 「GPU 공동 사용 플랫폼」 구현 방식 검토 결과보고서, 2026-08
 
+> Non-image attachment omitted by archive policy
+
 ## Comments
 
 _No comments._
