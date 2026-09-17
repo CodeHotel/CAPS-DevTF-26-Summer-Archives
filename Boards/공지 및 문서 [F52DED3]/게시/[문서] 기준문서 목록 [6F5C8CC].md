@@ -10,8 +10,6 @@ Card ID: `cia5uocxxsbnnzcqjtetgxqj3uy`
 | 게시일 | 2026-09-16 |
 | 관련 링크 |  |
 
-TF가 기준으로 삼을 문서는 다음 다섯 건이다. 결재가 끝난 문서와 결재를 기다리는 문서를 함께 적었으며, 결재가 끝나거나 새 문서가 생기면 이 표를 고친다.
-
 | 문서 | 상태 | 링크 |
 |---|---|---|
 | 프로젝트 브리프 | 작성중 | [열기](https://dgu-caps-erp.com/boards/team/d9ymwk3r6pn87e5pcwu6dzbbih/btid9aqiwgtghif4pjrekth7tih/v6h4y6uryftbudegefpj1irheoc/czow9dupnrp8ejrg7gat1ee9eoe) |
