@@ -1,11 +1,11 @@
-# 작업지시서
+# Untitled card
 
 Card ID: `ck4tukg7e6j81zribwx4qhubf6e`
 
 | Property | Value |
 |---|---|
 | 상태 | 할 일 |
-| 팀 |  |
+| 팀 | QA |
 | 담당자 |  |
 | 지시자 |  |
 | 마감일 |  |
