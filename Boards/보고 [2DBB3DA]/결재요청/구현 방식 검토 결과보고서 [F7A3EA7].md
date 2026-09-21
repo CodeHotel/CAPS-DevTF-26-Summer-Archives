@@ -1,4 +1,4 @@
-# [검토] 구현 방식 검토 결과보고서
+# 구현 방식 검토 결과보고서
 
 Card ID: `c95enet94rffyfk1hdiz6cd3nro`
 
