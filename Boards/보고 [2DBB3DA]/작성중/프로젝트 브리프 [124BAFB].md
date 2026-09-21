@@ -1,4 +1,4 @@
-# [전체] 프로젝트 브리프
+# 프로젝트 브리프
 
 Card ID: `czow9dupnrp8ejrg7gat1ee9eoe`
 
