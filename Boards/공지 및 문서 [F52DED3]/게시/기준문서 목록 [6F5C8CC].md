@@ -1,4 +1,4 @@
-# [문서] 기준문서 목록
+# 기준문서 목록
 
 Card ID: `cia5uocxxsbnnzcqjtetgxqj3uy`
 
