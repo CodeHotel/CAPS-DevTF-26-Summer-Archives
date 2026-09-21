@@ -1,4 +1,4 @@
-# [검토] HAMi 기술검증 결과보고서
+# HAMi 기술검증 결과보고서
 
 Card ID: `cgk1qxa554injjmweeph5r6ns4a`
 
