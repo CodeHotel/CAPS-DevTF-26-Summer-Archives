@@ -27,8 +27,6 @@ Card ID: `cgk1qxa554injjmweeph5r6ns4a`
 
 > Non-image attachment omitted by archive policy
 
-> Non-image attachment omitted by archive policy
-
 ## Comments
 
 _No comments._
