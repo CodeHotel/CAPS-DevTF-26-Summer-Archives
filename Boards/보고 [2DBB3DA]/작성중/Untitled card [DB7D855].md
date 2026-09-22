@@ -13,22 +13,6 @@ Card ID: `c4r1wxgh417yqbco1nxhumeqtha`
 | 주차 |  |
 | 관련 링크 |  |
 
-## 금일 작업
-
-- 
-
-## 차기 작업
-
-- 
-
-## 장애 요인
-
-없음
-
-## 결정 필요 사항
-
-없음
-
 ## Comments
 
 _No comments._
