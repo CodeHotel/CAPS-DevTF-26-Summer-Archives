@@ -50,7 +50,7 @@ jobs:
           runtime_python="/opt/mattermost-board-mirror/venv/bin/python"
           test -x "${runtime_python}"
           "${runtime_python}" -c \
-            'import psycopg, yaml, boards_mirror; assert boards_mirror.__version__ == "0.8.0"'
+            'import psycopg, yaml, boards_mirror; assert boards_mirror.__version__ == "0.8.1"'
 
       - name: Mirror source history
         shell: bash
