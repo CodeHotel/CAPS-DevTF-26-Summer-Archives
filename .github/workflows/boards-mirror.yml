@@ -1,5 +1,9 @@
 name: Mirror Mattermost Boards
 
+# Runs on the self-hosted runner devtf25w-caps-archive. The exporter comes from the
+# runner image (caps-actions-runner-mirror:2.336.0-0.8.1 or later): Boards 9.3.1 in
+# plugin mode records uploads in Mattermost's fileinfo table, which 0.8.0 did not read.
+
 on:
   workflow_dispatch:
   push:
