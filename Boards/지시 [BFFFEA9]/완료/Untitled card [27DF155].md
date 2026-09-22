@@ -8,7 +8,7 @@ Card ID: `cmdihyupjgjgr7p3h1rqs9xpb1c`
 | 팀 | 경영 |
 | 담당자 | @yellowpart |
 | 지시자 | @CodeHotel |
-| 마감일 |  |
+| 마감일 | 2026-09-22 |
 | 원본 링크 |  |
 
 ## Comments
