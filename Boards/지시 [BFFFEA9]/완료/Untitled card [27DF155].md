@@ -4,7 +4,7 @@ Card ID: `cmdihyupjgjgr7p3h1rqs9xpb1c`
 
 | Property | Value |
 |---|---|
-| 상태 |  |
+| 상태 | 완료 |
 | 팀 | 경영 |
 | 담당자 |  |
 | 지시자 |  |
