@@ -1,7 +1,7 @@
 name: Mirror Mattermost Boards
 
 # Runs on the self-hosted runner devtf25w-caps-archive. The exporter comes from the
-# runner image (caps-actions-runner-mirror:2.336.0-0.8.1 or later): Boards 9.3.1 in
+# runner image (caps-actions-runner-mirror:2.336.0-0.8.2 or later): Boards 9.3.1 in
 # plugin mode records uploads in Mattermost's fileinfo table, which 0.8.0 did not read.
 # 2026-09-24: host controller 27edd22 (git status no longer rewrites the runtime index as root); run re-queued 04:2x UTC.
 
@@ -51,7 +51,7 @@ jobs:
           runtime_python="/opt/mattermost-board-mirror/venv/bin/python"
           test -x "${runtime_python}"
           "${runtime_python}" -c \
-            'import psycopg, yaml, boards_mirror; assert boards_mirror.__version__ == "0.8.1"'
+            'import psycopg, yaml, boards_mirror; assert boards_mirror.__version__ == "0.8.2"'
 
       - name: Mirror source history
         shell: bash
