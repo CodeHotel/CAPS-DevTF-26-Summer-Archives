@@ -9,7 +9,7 @@ Card ID: `ctt6do8893jgy8fssaoxriwzswo`
 | 작성자 | @rlatkdgus2627 |
 | 결재자 |  |
 | 팀 | 개발 |
-| 날짜 |  |
+| 날짜 | 2026-09-25 |
 | 주차 |  |
 | 관련 링크 |  |
 
