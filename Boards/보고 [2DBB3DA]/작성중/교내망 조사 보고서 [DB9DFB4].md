@@ -225,6 +225,8 @@ NAS는 GPU 노드에서 교내망으로 직접 마운트해 저장소 트래픽�
 | 교내 테스트 장비 확보 후 | 내부 접속 환경 | 서비스가 사용할 유선 및 무선 환경과 다른 VLAN에서 GPU까지의 통신 가능 여부 및 성능을 확인합니다. |
 | NAS 도입 후 | 저장소 연결과 성능 | 직접 마운트, GPU와 NAS 사이의 처리량과 지연, 순차 읽기와 작은 파일 읽기, 동시 접근 성능을 측정합니다.
 
+> Attachment omitted by archive policy: `교내망_연결구조.png` has the unsupported file type `.png`
+
 ## Comments
 
 _No comments._
