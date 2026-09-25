@@ -229,6 +229,8 @@ NAS는 GPU 노드에서 교내망으로 직접 마운트해 저장소 트래픽�
 
 > Attachment omitted by archive policy: `중계서버_NetBird_비교.png` has the unsupported file type `.png`
 
+[GPU_교내망_조사보고서.pdf](attachments/7tjr6rfbj9j87df7yr7yi39j46r.pdf)
+
 ## Comments
 
 _No comments._
