@@ -5,7 +5,7 @@ Card ID: `ctt6do8893jgy8fssaoxriwzswo`
 | Property | Value |
 |---|---|
 | 상태 | 작성중 |
-| 종류 |  |
+| 종류 | 검토 보고서 |
 | 작성자 |  |
 | 결재자 |  |
 | 팀 | 개발 |
