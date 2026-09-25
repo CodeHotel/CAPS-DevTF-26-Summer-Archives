@@ -4,7 +4,7 @@ Card ID: `ctt6do8893jgy8fssaoxriwzswo`
 
 | Property | Value |
 |---|---|
-| 상태 |  |
+| 상태 | 작성중 |
 | 종류 |  |
 | 작성자 |  |
 | 결재자 |  |
