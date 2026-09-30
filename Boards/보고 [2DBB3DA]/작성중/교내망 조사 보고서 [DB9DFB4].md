@@ -38,7 +38,7 @@ Card ID: `ctt6do8893jgy8fssaoxriwzswo`
 | 기본 게이트웨이 | `192.168.*.1` | `192.168.*.1` |
 | 외부에서 관측한 공인 IP | `210.94.*.33` | `210.94.*.33` |
 
-![교내 GPU 서버와 외부 테스트 장비의 연결 구조](교내망_연결구조.png)
+![교내 GPU 서버와 외부 테스트 장비의 연결 구조](attachments/7juxszfudbpfgfxhm7eddkg4bph.png)
 
 위 그림은 라우팅 정보와 `traceroute`, 담당자 안내를 바탕으로 추정한 논리 구조입니다.
 
@@ -144,7 +144,7 @@ P2P가 성립하면 작업 데이터는 중계 서버를 거치지 않고 양쪽
 
 설치 스크립트와 확인된 노트북 클라이언트 버전은 0.79.0입니다.
 
-![중계 서버 경유 경로와 NetBird P2P 경로의 데이터 흐름](중계서버_NetBird_비교.png)
+![중계 서버 경유 경로와 NetBird P2P 경로의 데이터 흐름](attachments/768zk5y76gtb4mn7nw6rr6dguqw.png)
 
 | 검증 항목 | 결과 |
 |---|---|
@@ -225,11 +225,11 @@ NAS는 GPU 노드에서 교내망으로 직접 마운트해 저장소 트래픽�
 | 교내 테스트 장비 확보 후 | 내부 접속 환경 | 서비스가 사용할 유선 및 무선 환경과 다른 VLAN에서 GPU까지의 통신 가능 여부 및 성능을 확인합니다. |
 | NAS 도입 후 | 저장소 연결과 성능 | 직접 마운트, GPU와 NAS 사이의 처리량과 지연, 순차 읽기와 작은 파일 읽기, 동시 접근 성능을 측정합니다.
 
-> Attachment omitted by archive policy: `교내망_연결구조.png` has the unsupported file type `.png`
+![교내망_연결구조.png](attachments/7juxszfudbpfgfxhm7eddkg4bph.png)
 
-> Attachment omitted by archive policy: `중계서버_NetBird_비교.png` has the unsupported file type `.png`
+![중계서버_NetBird_비교.png](attachments/768zk5y76gtb4mn7nw6rr6dguqw.png)
 
-[GPU_교내망_조사보고서.pdf](attachments/7tjr6rfbj9j87df7yr7yi39j46r.pdf)
+[GPU_교내망_조사보고서.pdf](attachments/7tjr6rfbj9j87df7yr7yi39j46r.pdf)
 
 ## Comments
 
