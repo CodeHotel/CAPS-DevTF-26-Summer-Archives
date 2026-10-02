@@ -1,4 +1,4 @@
-# 10/01
+# 10/1
 
 Card ID: `co8k1fhxjmjrhtc9i9jdwhan86r`
 
@@ -7,7 +7,7 @@ Card ID: `co8k1fhxjmjrhtc9i9jdwhan86r`
 | 상태 | 결재요청 |
 | 종류 | 일일결산 |
 | 작성자 | @yellowpart |
-| 결재자 | TF장 |
+| 결재자 |  |
 | 팀 | 경영 |
 | 날짜 |  |
 | 주차 | 2주차 |
