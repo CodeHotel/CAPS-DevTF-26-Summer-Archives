@@ -6,7 +6,7 @@ Card ID: `co8k1fhxjmjrhtc9i9jdwhan86r`
 |---|---|
 | 상태 | 결재요청 |
 | 종류 | 일일결산 |
-| 작성자 |  |
+| 작성자 | @yellowpart |
 | 결재자 |  |
 | 팀 | 경영 |
 | 날짜 |  |
