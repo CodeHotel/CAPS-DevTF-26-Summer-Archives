@@ -1,4 +1,4 @@
-# 10/1
+# 10/01
 
 Card ID: `co8k1fhxjmjrhtc9i9jdwhan86r`
 
@@ -10,7 +10,7 @@ Card ID: `co8k1fhxjmjrhtc9i9jdwhan86r`
 | 결재자 | TF장 |
 | 팀 | 경영 |
 | 날짜 |  |
-| 주차 | 2주차 |
+| 주차 |  |
 | 관련 링크 |  |
 
 ## Comments
