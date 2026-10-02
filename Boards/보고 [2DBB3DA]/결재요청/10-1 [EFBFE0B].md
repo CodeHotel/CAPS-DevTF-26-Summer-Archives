@@ -9,7 +9,7 @@ Card ID: `co8k1fhxjmjrhtc9i9jdwhan86r`
 | 작성자 | @yellowpart |
 | 결재자 | TF장 |
 | 팀 | 경영 |
-| 날짜 |  |
+| 날짜 | 2026-10-01 |
 | 주차 | 2주차 |
 | 관련 링크 |  |
 
