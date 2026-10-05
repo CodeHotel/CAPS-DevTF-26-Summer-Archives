@@ -4,7 +4,7 @@ Card ID: `czow9dupnrp8ejrg7gat1ee9eoe`
 
 | Property | Value |
 |---|---|
-| 상태 | 작성중 |
+| 상태 | 결재요청 |
 | 종류 | 프로젝트 브리프 |
 | 작성자 | @CodeHotel |
 | 결재자 | 조직위 |
