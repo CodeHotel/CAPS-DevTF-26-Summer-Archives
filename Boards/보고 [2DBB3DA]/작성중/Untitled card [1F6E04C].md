@@ -13,22 +13,6 @@ Card ID: `cm73wtjmpojyuppi9a8fn4fjn8r`
 | 주차 |  |
 | 관련 링크 |  |
 
-## 관찰 내용
-
-- 
-
-## 이해 내용
-
-- 
-
-## 질문 사항
-
-- 
-
-## 차주 관찰 계획
-
--
-
 ## Comments
 
 _No comments._
