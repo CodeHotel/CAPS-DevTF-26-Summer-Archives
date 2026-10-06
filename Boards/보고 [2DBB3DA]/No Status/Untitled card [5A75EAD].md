@@ -5,7 +5,7 @@ Card ID: `cr8y3icjgptyr3mdwpt4bdc6ihr`
 | Property | Value |
 |---|---|
 | 상태 |  |
-| 종류 |  |
+| 종류 | 검토 보고서 |
 | 작성자 |  |
 | 결재자 |  |
 | 팀 | 개발 |
