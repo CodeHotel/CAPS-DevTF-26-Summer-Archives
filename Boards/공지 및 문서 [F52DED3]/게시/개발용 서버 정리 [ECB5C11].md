@@ -24,6 +24,8 @@ Card ID: `c1ez1w983uighdroc16utnnqr8y`
 
 ## 연결 구조
 
+![Board image](assets/7xu865wrch3gzx8qt9gp9cqzfih.png)
+
 ## Comments
 
 _No comments._
