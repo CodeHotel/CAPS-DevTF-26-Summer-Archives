@@ -6,7 +6,7 @@ Card ID: `cqjamjxpyybyd3ep1fcc7ugjzcr`
 |---|---|
 | 상태 | 작성중 |
 | 종류 | 멘티 보고서 |
-| 작성자 |  |
+| 작성자 | @chaniipyc |
 | 결재자 | PM |
 | 팀 | 개발 |
 | 날짜 |  |
