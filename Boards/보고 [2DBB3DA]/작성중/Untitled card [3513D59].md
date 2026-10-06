@@ -1,4 +1,4 @@
-# 멘티 보고서
+# Untitled card
 
 Card ID: `cey8k1i5qnpf33mojd85xqh81wr`
 
@@ -8,7 +8,7 @@ Card ID: `cey8k1i5qnpf33mojd85xqh81wr`
 | 종류 | 멘티 보고서 |
 | 작성자 |  |
 | 결재자 | PM |
-| 팀 |  |
+| 팀 | 개발 |
 | 날짜 |  |
 | 주차 |  |
 | 관련 링크 |  |
