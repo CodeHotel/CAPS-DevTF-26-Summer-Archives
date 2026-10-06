@@ -43,4 +43,6 @@ Card ID: `c1ez1w983uighdroc16utnnqr8y`
 
 ## Comments
 
-_No comments._
+- **@CodeHotel — 2026-10-06T08:39:55Z**
+
+  @rlatkdgus2627 @yusi 진행하시다가 AWS 서버 구축 등 변동사항 있으면 여기에 반영해주세용
