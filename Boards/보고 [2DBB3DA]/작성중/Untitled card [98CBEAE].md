@@ -1,4 +1,4 @@
-# 멘티 보고서
+# Untitled card
 
 Card ID: `cqjamjxpyybyd3ep1fcc7ugjzcr`
 
@@ -8,7 +8,7 @@ Card ID: `cqjamjxpyybyd3ep1fcc7ugjzcr`
 | 종류 | 멘티 보고서 |
 | 작성자 |  |
 | 결재자 | PM |
-| 팀 |  |
+| 팀 | 개발 |
 | 날짜 |  |
 | 주차 |  |
 | 관련 링크 |  |
