@@ -1,11 +1,11 @@
-# 멘티 보고서
+# Untitled card
 
 Card ID: `cm73wtjmpojyuppi9a8fn4fjn8r`
 
 | Property | Value |
 |---|---|
 | 상태 | 작성중 |
-| 종류 | 멘티 보고서 |
+| 종류 | 프로젝트 브리프 |
 | 작성자 |  |
 | 결재자 | PM |
 | 팀 |  |
