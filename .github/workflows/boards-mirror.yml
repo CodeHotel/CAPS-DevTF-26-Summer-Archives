@@ -1,9 +1,10 @@
 name: Mirror Mattermost Boards
 
-# Runs on the self-hosted runner devtf25w-caps-archive. The exporter comes from the
-# runner image (caps-actions-runner-mirror:2.336.0-0.8.4 or later): Boards 9.3.1 in
-# plugin mode records uploads in Mattermost's fileinfo table, which 0.8.0 did not read.
-# 2026-09-24: host controller 27edd22 (git status no longer rewrites the runtime index as root); run re-queued 04:2x UTC.
+# The mirror job copies new Mattermost Boards history into this repository on the
+# self-hosted runner, using the exporter built into the runner image. The rearm
+# job then starts the next run about ten minutes later; the schedule below only
+# restarts that chain when it stops. Set the repository variable MIRROR_REARM to
+# "off" to stop re-arming.
 
 on:
   workflow_dispatch:
@@ -26,6 +27,8 @@ jobs:
   mirror:
     runs-on: [self-hosted, caps-archive]
     timeout-minutes: 20
+    permissions:
+      contents: write
     env:
       MIRROR_CONFIG_PATH: /etc/mattermost-board-mirror/mirror.yml
 
@@ -71,3 +74,28 @@ jobs:
             find "${credential_dir}" -type f -exec shred -u -- {} +
             rmdir "${credential_dir}"
           fi
+
+  rearm:
+    needs: mirror
+    if: ${{ !cancelled() && vars.MIRROR_REARM != 'off' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      actions: write
+    steps:
+      - name: Start the next run in about ten minutes
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          sleep 540
+          waiting=$(gh run list --workflow boards-mirror.yml --limit 20 \
+            --json databaseId,status \
+            --jq "[.[] | select(.databaseId != ${GITHUB_RUN_ID} and .status != \"completed\")] | length")
+          if [ "${waiting}" -gt 0 ]; then
+            echo "Another run is already queued or running."
+            exit 0
+          fi
+          gh workflow run boards-mirror.yml --ref main
