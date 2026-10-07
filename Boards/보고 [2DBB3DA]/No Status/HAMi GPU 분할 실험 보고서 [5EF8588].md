@@ -1,4 +1,4 @@
-# Untitled card
+# HAMi GPU 분할 실험 보고서
 
 Card ID: `cxcxj9gp1spfcipfaxqgthgpaza`
 
