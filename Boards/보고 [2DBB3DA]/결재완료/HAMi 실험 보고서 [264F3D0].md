@@ -4,7 +4,7 @@ Card ID: `cmekxzfppdtn89jjan44ptqnmse`
 
 | Property | Value |
 |---|---|
-| 상태 | 결재요청 |
+| 상태 | 결재완료 |
 | 종류 | 검토 보고서 |
 | 작성자 | @yom21c1020 |
 | 결재자 | TF장 |
