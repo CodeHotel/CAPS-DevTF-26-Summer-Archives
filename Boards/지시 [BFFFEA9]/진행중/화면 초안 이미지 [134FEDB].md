@@ -1,4 +1,4 @@
-# Untitled card
+# 화면 초안 이미지
 
 Card ID: `casc5s9ccwp8u5qdgijppy1hmaw`
 
