@@ -29,6 +29,8 @@ Card ID: `casc5s9ccwp8u5qdgijppy1hmaw`
 
 ![Board image](assets/78rxrdkp8k3y95cadw1iizr7cfc.png)
 
+![Board image](assets/71tiqi8njnb8pxk3anwimnzqhre.png)
+
 ## Comments
 
 _No comments._
