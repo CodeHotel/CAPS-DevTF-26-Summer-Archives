@@ -1,0 +1,18 @@
+# 10/8 copy copy
+
+Card ID: `cxjjnxszuh7najnkpzr7izbckih`
+
+| Property | Value |
+|---|---|
+| 상태 | 결재요청 |
+| 종류 | 일일결산 |
+| 작성자 | @yellowpart |
+| 결재자 | TF장 |
+| 팀 | 경영 |
+| 날짜 | 2026-10-08 |
+| 주차 |  |
+| 관련 링크 |  |
+
+## Comments
+
+_No comments._
