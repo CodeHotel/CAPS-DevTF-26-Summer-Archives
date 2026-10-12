@@ -10,7 +10,7 @@ Card ID: `cmawnx91m4fgy986kescsb363ie`
 | 결재자 | TF장 |
 | 팀 | 경영 |
 | 날짜 | 2026-10-12 |
-| 주차 |  |
+| 주차 | 4주차 |
 | 관련 링크 |  |
 
 ## Comments
