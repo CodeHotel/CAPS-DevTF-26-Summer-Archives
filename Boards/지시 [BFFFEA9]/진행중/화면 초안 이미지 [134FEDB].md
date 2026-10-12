@@ -13,6 +13,8 @@ Card ID: `casc5s9ccwp8u5qdgijppy1hmaw`
 
 ![Board image](assets/7yd9495433bdfjdgw3u8chrhh7h.png)
 
+![Board image](assets/7s8diyzaen7de5jj98666f7eteh.png)
+
 ## Comments
 
 _No comments._
