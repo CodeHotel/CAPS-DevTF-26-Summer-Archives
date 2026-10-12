@@ -11,6 +11,8 @@ Card ID: `casc5s9ccwp8u5qdgijppy1hmaw`
 | 마감일 |  |
 | 원본 링크 |  |
 
+![Board image](assets/7yd9495433bdfjdgw3u8chrhh7h.png)
+
 ## Comments
 
 _No comments._
