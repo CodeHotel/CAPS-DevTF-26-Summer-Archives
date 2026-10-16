@@ -51,6 +51,8 @@ Card ID: `cmekxzfppdtn89jjan44ptqnmse`
 
 상세 수치와 실험 조건은 첨부한 pdf 참고.
 
+[HAMi_Experiment_Report.pdf](attachments/77y8uzydp8frsj89k61t4rc58se.pdf)
+
 ## Comments
 
 - **@rlatkdgus2627 — 2026-10-08T09:33:17Z**
